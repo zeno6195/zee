@@ -1,0 +1,23 @@
+{
+    "featured": [
+      {
+        "title": "Game Title 1",
+        "image": "images/download.jpeg",
+        "description": "Call of Duty: Warzone 2.0 is a free-to-play battle royale video game developed by Infinity Ward and Raven Software for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S. It is a sequel to 2020's Call of Duty: Warzone",
+        "tiktokLink": "https://www.tiktok.com/@zeno6195_?_t=8c4tgC8crtF&_r=1"
+      },
+      {
+        "title": "Game Title 2",
+        "image": "images/download(3).jpeg",
+        "description": "Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico.",
+        "tiktokLink": "https://www.tiktok.com/@zeno6195_?_t=8c4tgC8crtF&_r=1"
+      },
+      {
+        "title": "Game Title 3",
+        "image": "images/download(2).jpeg",
+        "description": "Tom Clancy's Ghost Recon Breakpoint is a military shooter set in a diverse, hostile, and mysterious open world that you can play entirely solo or in four-player co-op",
+        "tiktokLink": "https://www.tiktok.com/@zeno6195_?_t=8c4tgC8crtF&_r=1"
+      }
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatterBot Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>ChatterBot Example</h1>
+    <div id="chatbox"></div>
+    <input type="text" id="user_input" placeholder="Enter your message">
+    <button onclick="getBotResponse()">Send</button>
+    <script>
+        function getBotResponse() {
+            var user_input = $('#user_input').val();
+            $('#chatbox').append('<p>You: ' + user_input + '</p>');
+            $.get('/get', {msg: user_input}).done(function(data) {
+                $('#chatbox').append('<p>Bot: ' + data + '</p>');
+                $('#user_input').val('');
+            });
+        }
+    </script>
+</body>
+</html>
